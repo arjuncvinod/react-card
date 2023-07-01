@@ -7,8 +7,8 @@ import Avatar from "./Avatar"
 function App() {
         return (
           <div>
-            <Avatar img="https://media.licdn.com/dms/image/D5603AQH-tDqtkytzxg/profile-displayphoto-shrink_800_800/0/1670577127018?e=2147483647&v=beta&t=KGgRvJs_CvoY8v6UYbGejg6nr6RmrjoMt5eyuuPAwWg" />
             <h1 className="heading">My Contacts</h1>
+            <Avatar img="https://media.licdn.com/dms/image/D5603AQH-tDqtkytzxg/profile-displayphoto-shrink_800_800/0/1670577127018?e=2147483647&v=beta&t=KGgRvJs_CvoY8v6UYbGejg6nr6RmrjoMt5eyuuPAwWg" />
             <Card
               name={Contact[0].name}
               img={Contact[0].imgURL}
